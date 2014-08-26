@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Lucas Morales</string>
+	<key>description</key>
+	<string>A bundle for edX XML script support with Python and Javascript syntax highlighting.</string>
+	<key>name</key>
+	<string>XML (edX)</string>
+	<key>uuid</key>
+	<string>F8456B36-855E-4B85-8858-B70B5D085304</string>
+</dict>
+</plist>
