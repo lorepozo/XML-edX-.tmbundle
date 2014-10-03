@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;multiplechoiceresponse&gt;
+  &lt;choicegroup label="for accessibility" type="MultipleChoice"&gt;
+    &lt;choice correct="false"&gt; a &lt;/choice&gt;
+    &lt;choice correct="false"&gt; b &lt;/choice&gt;
+    &lt;choice correct="true" &gt; c &lt;/choice&gt;
+    &lt;choice correct="false"&gt; d&lt;/choice&gt;
+  &lt;/choicegroup&gt;
+&lt;/multiplechoiceresponse&gt;</string>
+	<key>name</key>
+	<string>input:multiplechoice</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:multiplechoice</string>
+	<key>uuid</key>
+	<string>DCCAFD1B-EFCC-4435-BBCB-84A500C123F7</string>
+</dict>
+</plist>

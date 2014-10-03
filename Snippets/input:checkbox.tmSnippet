@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;numericalresponse answer="${1|3.14|}"&gt;
+	&lt;responseparam type="tolerance" default="2%" /&gt;
+	&lt;textline label="for accessibility" trailing_text="" /&gt;
+&lt;/numericalresponse&gt;</string>
+	<key>name</key>
+	<string>input:numerical</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:numerical</string>
+	<key>uuid</key>
+	<string>BBBD1933-95E9-40EB-A48F-24388819C713</string>
+</dict>
+</plist>
