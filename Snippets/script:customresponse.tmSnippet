@@ -2,22 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>&lt;script type="loncapa/python"&gt;
-&lt;![CDATA[
-def check_function(expect, answer):
-	'''This default grader will mark all responses incorrect and will show what python is reading'''
-	input_list = [{"ok":False, "msg": 'Python is reading &lt;code&gt;' + part + ' &lt;code&gt;'} for part in answer]
-	grade = {"overall_message":'An overall message',"input_list":input_list}
-	
-]]&gt;
-&lt;/script&gt;</string>
-	<key>name</key>
-	<string>script:customresponse</string>
-	<key>scope</key>
-	<string>text.xml</string>
-	<key>tabTrigger</key>
-	<string>script:customresponse</string>
+	<key>changed</key>
+	<dict>
+		<key>disableAutoIndent</key>
+		<true/>
+	</dict>
+	<key>isDelta</key>
+	<true/>
 	<key>uuid</key>
 	<string>BD3735AB-F35D-4A6F-B2A2-22AFB7F6174C</string>
 </dict>
