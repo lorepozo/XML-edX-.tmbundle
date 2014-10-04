@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;optionresponse&gt;
+    &lt;optioninput label="" options="(${1|'option1'|,${2|'option2'|${3|'option3'|})" correct="${1'option2'}"&gt;&lt;/optioninput&gt;
+&lt;/optionresponse&gt;</string>
+	<key>name</key>
+	<string>input:dropdown</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:dropbox</string>
+	<key>uuid</key>
+	<string>1D60E86A-FF6F-4CB3-AA6E-CB96CB17DC86</string>
+</dict>
+</plist>
