@@ -4,9 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>&lt;formularesponse answer="m*c^2" samples="m,c @ 1,1:10,10 #3"&gt;
-    &lt;text&gt;\(x=\)&lt;/text&gt;
+    &lt;p style="display:inline" &gt;\(E=\) &lt;/p&gt;
     &lt;responseparam default="1%" type="tolerance"/&gt;
-    &lt;formulaequationinput/&gt;
+    &lt;formulaequationinput inline="1"/&gt;
 &lt;/formularesponse&gt;</string>
 	<key>name</key>
 	<string>input:symbolic</string>
