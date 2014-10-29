@@ -4,8 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>&lt;numericalresponse answer="${1|3.14|}"&gt;
+	&lt;p style="display:inline" &gt; \(x=\) &lt;/p&gt;
 	&lt;responseparam type="tolerance" default="2%" /&gt;
-	&lt;textline label="for accessibility" trailing_text="" /&gt;
+	&lt;textline label="for accessibility" trailing_text="" inline="1" /&gt;
 &lt;/numericalresponse&gt;</string>
 	<key>name</key>
 	<string>input:numerical</string>
