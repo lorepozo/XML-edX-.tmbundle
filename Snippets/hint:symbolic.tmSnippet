@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!--Put Inside formularesponse--&gt;
+&lt;hintgroup&gt;
+	&lt;formulahint samples="m,g,theta@1,2,3:4,5,6#10" answer="$common_error" name="sin instead of cos"&gt;
+	&lt;/formulahint&gt;
+	&lt;hintpart on="sin instead of cos"&gt;
+		&lt;text&gt; Hmmm . . . Does your answer make sense in the limit \(\theta \rightarrow 0\)? &lt;/text&gt;
+	&lt;/hintpart&gt;
+&lt;/hintgroup&gt;</string>
+	<key>name</key>
+	<string>hint:symbolic</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>hint:symbolic</string>
+	<key>uuid</key>
+	<string>2C403A05-A7DF-4CF0-8CDA-6E4F0113851A</string>
+</dict>
+</plist>

@@ -5,46 +5,35 @@
 	<key>content</key>
 	<string>&lt;script type="loncapa/python"&gt;
 &lt;![CDATA[
-def is_number(s):
-  try:
-    float(s)
-    return True
-  except ValueError:
-    return False
-def str_to_vec(string):
-  string = string.strip("(")
-  string = string.strip(")")
-  for x in string.split(","):
-    if not is_number(x):
-      return "Cannot parse input as vector"
-  return [float(x) for x in string.split(",")]
 
 def vector_near(expect,answer):
-	'''the student's answer is considered close enough if:
-	|answer-expect|^2 &lt; tol *  |expect|^2'''
-  answer = str_to_vec(answer)
-  expect = str_to_vec(expect)
-  if answer == "Cannot parse input as vector":
+  
+  try:
+    answer = eval(answer)
+    if not isinstance(answer,tuple):
+      return {'ok':False,'msg':"Having trouble interpreting input as a vector."}
+  except:
     return {'ok':False,'msg':"Having trouble interpreting input as a vector."}
+  expect = eval(expect)
+  
   if len(answer) != len(expect):
     return {'ok':False, 'msg': 'your vector input has the wrong number of components'}
   tol = 0.05
-  difference_norm_sq = 0
-  expect_norm_sq = 0
+  difference_norm = 0
+  expect_norm = 0
   for j in range(len(answer)):
-    expect_norm = +expect[j]**2
+    expect_norm += expect[j]**2
   for j in range(len(answer)):
     Dj = expect[j]-answer[j]
-    difference_norm_sq += Dj**2
-  if difference_norm_sq &lt; tol*expect_norm_sq:
-    return True	
-]]&gt;
-&lt;/script&gt;
+    difference_norm += Dj**2
 
-	&lt;customresponse cfn="vector_near" expect="(5,3)"&gt;
-		&lt;textline size="5" label="What is (2,1) + (3,2)?" trailing_text=""/&gt;
-	&lt;/customresponse&gt;</string>
+  return difference_norm &lt; tol*expect_norm
+
+]]&gt;
+&lt;/script&gt;</string>
 	<key>name</key>
+	<string>script:vectornear</string>
+	<key>tabTrigger</key>
 	<string>script:vectornear</string>
 	<key>uuid</key>
 	<string>965C1864-E4C9-45BA-9DD3-2D8A150EED06</string>

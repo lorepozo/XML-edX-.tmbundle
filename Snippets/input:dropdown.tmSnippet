@@ -4,15 +4,15 @@
 <dict>
 	<key>content</key>
 	<string>&lt;optionresponse&gt;
-    &lt;optioninput label="" options="(${1|'option1'|,${2|'option2'|${3|'option3'|})" correct="${1'option2'}"&gt;&lt;/optioninput&gt;
+  &lt;optioninput label="Translation between Dropdown and __________ is extremely straightforward:" options="('Multiple Choice','Text Input','Numerical Input','External Response','Image Response')" correct="Multiple Choice"&gt;&lt;/optioninput&gt;
 &lt;/optionresponse&gt;</string>
 	<key>name</key>
 	<string>input:dropdown</string>
 	<key>scope</key>
 	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>input:dropbox</string>
+	<string>input:dropdown</string>
 	<key>uuid</key>
-	<string>1D60E86A-FF6F-4CB3-AA6E-CB96CB17DC86</string>
+	<string>FBCAEC8C-57B4-40AB-9B16-8DFF419B8EDA</string>
 </dict>
 </plist>

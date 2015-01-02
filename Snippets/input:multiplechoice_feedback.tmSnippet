@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;problem&gt;
+	&lt;p&gt;What Apple device competed with the portable CD player?&lt;/p&gt;
+	&lt;multiplechoiceresponse targeted-feedback=""&gt;
+	 &lt;choicegroup type="MultipleChoice"&gt;
+	   &lt;choice correct="false" explanation-id="feedback1"&gt;The iPad&lt;/choice&gt;
+	   &lt;choice correct="false" explanation-id="feedback2"&gt;Napster&lt;/choice&gt;
+	   &lt;choice correct="true" explanation-id="correct"&gt;The iPod&lt;/choice&gt;
+	   &lt;choice correct="false" explanation-id="feedback3"&gt;The vegetable peeler&lt;/choice&gt;
+	 &lt;/choicegroup&gt;
+	&lt;/multiplechoiceresponse&gt;
+
+	&lt;targetedfeedbackset&gt;
+	  &lt;targetedfeedback explanation-id="feedback1"&gt;
+	      &lt;p&gt;The iPad came out later and did not directly compete with portable CD players.&lt;/p&gt;
+	  &lt;/targetedfeedback&gt;
+	  &lt;targetedfeedback explanation-id="feedback2"&gt;
+	      &lt;p&gt;Napster was not an Apple product.&lt;/p&gt;
+	  &lt;/targetedfeedback&gt;
+	  &lt;targetedfeedback explanation-id="feedback3"&gt;
+	      &lt;p&gt;Vegetable peelers don't play music.&lt;/p&gt;
+	  &lt;/targetedfeedback&gt;
+	 &lt;/targetedfeedbackset&gt;
+&lt;/problem&gt;</string>
+	<key>name</key>
+	<string>input:multiplechoice_feedback</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:multiplechoice_feedback</string>
+	<key>uuid</key>
+	<string>1E353F40-E95B-461B-8267-2AD6214297EE</string>
+</dict>
+</plist>
