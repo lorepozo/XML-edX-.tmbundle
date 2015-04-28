@@ -9,9 +9,9 @@
 	&lt;/formulahint&gt;
 	&lt;hintpart on="sin instead of cos"&gt;
 		&lt;text&gt; 
-		<![CDATA[
+		&lt;![CDATA[
 		<span style="color:blue">Feedback: </span> Hmmm . . . Does your answer make sense in the limit \(\theta \rightarrow 0\)? 
-		]]>
+		]]&gt;
 		&lt;/text&gt;
 	&lt;/hintpart&gt;
 &lt;/hintgroup&gt;</string>
