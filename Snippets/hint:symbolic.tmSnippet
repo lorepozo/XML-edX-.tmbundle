@@ -8,7 +8,11 @@
 	&lt;formulahint samples="m,g,theta@1,2,3:4,5,6#10" answer="$common_error" name="sin instead of cos"&gt;
 	&lt;/formulahint&gt;
 	&lt;hintpart on="sin instead of cos"&gt;
-		&lt;text&gt; Hmmm . . . Does your answer make sense in the limit \(\theta \rightarrow 0\)? &lt;/text&gt;
+		&lt;text&gt; 
+		<![CDATA[
+		<span style="color:blue">Feedback: </span> Hmmm . . . Does your answer make sense in the limit \(\theta \rightarrow 0\)? 
+		]]>
+		&lt;/text&gt;
 	&lt;/hintpart&gt;
 &lt;/hintgroup&gt;</string>
 	<key>name</key>
