@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;formularesponse answer="m*c^2" samples="m,c@ 0,0:2,2 #3"&gt;
+	<string>&lt;formularesponse type="cs" answer="m*c^2" samples="m,c@ 0,0:2,2 #3"&gt;
     &lt;p style="display:inline" &gt;\(E=\) &lt;/p&gt;
     &lt;responseparam default="0.01%" type="tolerance"/&gt;
     &lt;formulaequationinput inline="1"/&gt;
