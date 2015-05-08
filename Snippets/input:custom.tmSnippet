@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script type="loncapa/python"&gt;
+&lt;![CDATA[
+def check_function(expect,student_input):
+
+	input_list = [ {'ok': True, 'msg': "Python is reading student input &lt;code&gt;INPT&lt;/code&gt;".replace("INPT",str(inpt))  } for inpt in student_input ]
+	overall_message = "Python was expecting &lt;code&gt;EXPCT&lt;/code&gt;".replace('EXPCT',expect)
+	
+	return {'overall_message':overall_message,'input_list':input_list}
+
+]]&gt;
+&lt;/script&gt;
+
+&lt;customresponse cfn="check_function" expect="['cat','dog']"&gt;
+	&lt;textline /&gt;
+	&lt;textline /&gt;
+&lt;/customresponse&gt;</string>
+	<key>name</key>
+	<string>input:custom</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:custom</string>
+	<key>uuid</key>
+	<string>66C0E8E4-C974-45C9-9377-123A05CEA011</string>
+</dict>
+</plist>

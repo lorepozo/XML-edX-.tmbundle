@@ -2,14 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>changed</key>
-	<dict>
-		<key>disableAutoIndent</key>
-		<true/>
-	</dict>
-	<key>isDelta</key>
-	<true/>
+	<key>content</key>
+	<string>&lt;script type="loncapa/python"&gt;
+&lt;![CDATA[
+
+]]&gt;
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>script:python</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>script:python</string>
 	<key>uuid</key>
-	<string>46D2A7F4-3A12-4C75-9A6B-61BE903BA1EE</string>
+	<string>83955D38-E37C-494C-BEB6-AE0EDA06CEB4</string>
 </dict>
 </plist>

@@ -33,6 +33,8 @@ def vector_near(expect,answer):
 &lt;/script&gt;</string>
 	<key>name</key>
 	<string>script:vectornear</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
 	<string>script:vectornear</string>
 	<key>uuid</key>
